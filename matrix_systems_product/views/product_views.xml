@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="product_template_form_inherit_matrix_systems" model="ir.ui.view">
+        <field name="name">product.template.form.inherit.matrix.systems</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_form_view"/>
+        <field name="arch" type="xml">
+            <field name="detailed_type" position="after">
+                <field name="product_group"/>
+            </field>
+    </field>
+    </record>
+</odoo>
